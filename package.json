@@ -1,0 +1,29 @@
+{
+  "name": "backend_49330",
+  "version": "0.0.1",
+  "description": "Backend para el proyecto del curso 49330",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "UTP",
+    "49330"
+  ],
+  "author": "Anibal Jahuar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "react-router-dom": "^6.27.0"
+  }
+  
+  
+}

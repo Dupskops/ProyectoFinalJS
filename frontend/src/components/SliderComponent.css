@@ -1,0 +1,29 @@
+.legend {
+    font-size: 1.2rem; /* Tamaño base */
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white;
+    border-radius: 8px;
+    margin-top: -20px; /* Ajusta el espacio entre la leyenda y la imagen */
+    max-width: 90%; /* Asegura que no exceda el ancho del contenedor */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsivo para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .legend {
+      font-size: 1rem; /* Reducir el tamaño en pantallas pequeñas */
+      padding: 8px;
+    }
+  }
+  
+  /* Responsivo para pantallas muy pequeñas */
+  @media (max-width: 480px) {
+    .legend {
+      font-size: 0.9rem; /* Tamaño más pequeño para móviles */
+      padding: 6px;
+    }
+  }
+  
